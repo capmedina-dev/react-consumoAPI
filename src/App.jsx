@@ -1,9 +1,10 @@
 import React from 'react'
-
+import { Header } from './components/layouts/Header'
 export const App = () => {
   return (
-    <>  
-      <h1 className='text-4xl text-green-600 font-extrabold'>Hola Mundo</h1>
+    <>
+      <Header />
+
     </>
   )
 }
